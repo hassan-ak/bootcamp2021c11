@@ -39,5 +39,17 @@ export class Step03AppsyncLambdaAsDatasourceStack extends cdk.Stack {
       handler: "index.handler",
       timeout: cdk.Duration.seconds(10),
     });
+
+    // Set lambda as data source
+    const lambda_data_source = api.addLambdaDataSource(
+      "lambdaDataSource",
+      lambda_function
+    );
+
+    // Describe resolver for data source
+    lambda_data_source.createResolver({
+      typeName: "Query",
+      fieldName: "notes",
+    });
   }
 }
