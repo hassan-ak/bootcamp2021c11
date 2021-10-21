@@ -18,3 +18,10 @@ As we are going to develop the APIs and we need to test them in the end for test
 - [Building Real-time Serverless APIs with PostgreSQL, CDK, TypeScript, and AWS AppSync](https://aws.amazon.com/blogs/mobile/building-real-time-serverless-apis-with-postgres-cdk-typescript-and-aws-appsync/)
 - [GraphQL Instructions](https://learning.postman.com/docs/sending-requests/supported-api-frameworks/graphql/)
 - [Install Postman App](https://www.postman.com/downloads/)
+
+### Class 11 Videos:
+
+- [English YouTube](https://www.youtube.com/watch?v=mggxxU1FB80&ab_channel=CertifiedUnicornDeveloper)
+- [English Facebook](https://www.facebook.com/524892375/videos/547896853204913/)
+- [Urdu YouTube](https://www.youtube.com/watch?v=BV6nynkPOTc&ab_channel=CertifiedUnicornDeveloperinUrdu)
+- [Urdu Facebook](https://www.facebook.com/100003743983275/videos/578799806798029/)
