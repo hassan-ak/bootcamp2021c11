@@ -22,5 +22,14 @@ export class Step03AppsyncLambdaAsDatasourceStack extends cdk.Stack {
       },
       xrayEnabled: true,
     });
+
+    // Print GraphAL API URL and key on console after deploy
+    new cdk.CfnOutput(this, "APIGraphQLURL", {
+      value: api.graphqlUrl,
+    });
+
+    new cdk.CfnOutput(this, "APIGraphQLKey", {
+      value: api.apiKey || "",
+    });
   }
 }
