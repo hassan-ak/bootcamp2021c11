@@ -31,5 +31,13 @@ export class Step03AppsyncLambdaAsDatasourceStack extends cdk.Stack {
     new cdk.CfnOutput(this, "APIGraphQLKey", {
       value: api.apiKey || "",
     });
+
+    // Lambda Function
+    const lambda_function = new lambda.Function(this, "LambdaFunction", {
+      runtime: lambda.Runtime.NODEJS_12_X,
+      code: lambda.Code.fromAsset("lambda"),
+      handler: "index.handler",
+      timeout: cdk.Duration.seconds(10),
+    });
   }
 }
