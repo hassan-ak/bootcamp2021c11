@@ -7,3 +7,14 @@ As we are going to develop the APIs and we need to test them in the end for test
 ### Sections
 
 - [AppSync Lambda as data-source](./step03_appsync_lambda_as_datasource)
+
+### Reading Material
+
+- [Start Learning](https://graphql.org/learn/)
+- [Queries](https://graphql.org/learn/queries/)
+- [Schema](https://graphql.org/learn/schema/)
+- [AppSync](https://aws.amazon.com/appsync/)
+- [AppSync Docs](https://docs.aws.amazon.com/appsync/latest/devguide/what-is-appsync.html)
+- [Building Real-time Serverless APIs with PostgreSQL, CDK, TypeScript, and AWS AppSync](https://aws.amazon.com/blogs/mobile/building-real-time-serverless-apis-with-postgres-cdk-typescript-and-aws-appsync/)
+- [GraphQL Instructions](https://learning.postman.com/docs/sending-requests/supported-api-frameworks/graphql/)
+- [Install Postman App](https://www.postman.com/downloads/)
