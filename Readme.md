@@ -1,6 +1,12 @@
-# bootcamp2021c11 - Integrate API Gateway and AppSync with Lambda and DynamoDB
+# bootcamp2021c11 - Introduction to Serverless and Cloud Computing using CDK - Integrate API Gateway and AppSync with Lambda and DynamoDB - Integrate AppSync with Lambda as a Datasource 02
 
 ## Integrate AppSync with Lambda as a Datasource 02
+- AppSync API
+- Define
+  - lambda as data source
+  - resolvers
+  - cnf outputs
+- Test API in postman
 
 As we are going to develop the APIs and we need to test them in the end for testing purpose signup to "Postman" a service to test APIs. As we are developing APIs and with cdk framework AppSync is the techonology whihc is going to handdle our APIs on the server side we need to write AppSync construct in our code. Here lambda is going to be our data source.
 
@@ -19,7 +25,7 @@ As we are going to develop the APIs and we need to test them in the end for test
 - [GraphQL Instructions](https://learning.postman.com/docs/sending-requests/supported-api-frameworks/graphql/)
 - [Install Postman App](https://www.postman.com/downloads/)
 
-### Class 11 Videos:
+### Class 11 Videos: Integrate AppSync with Lambda as a Datasource 02
 
 - [English YouTube](https://www.youtube.com/watch?v=mggxxU1FB80&ab_channel=CertifiedUnicornDeveloper)
 - [English Facebook](https://www.facebook.com/524892375/videos/547896853204913/)
